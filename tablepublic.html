@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable Mangement System</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+	
+
+<script  src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+<script src="bootstable.min.js"></script>
+	
+</head>
+<body>
+<nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.html"><i class="glyphicon glyphicon-calendar"></i><strong>DAYBOOK</strong></a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li role="presentation"><a href="index.html">HOME </a></li>
+                    <li role="presentation"><a href="timetable.html">TIMETABLE </a></li>
+                    <li role="presentation"><a href="login.html">LOGIN </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	
+	<br>
+
+<div style="width:70%; margin: auto;">
+<table  cellpadding="2" cellspacing="2" border="2" class="table table-bordered">
+<br><br>
+    <thead>
+      <tr>
+	  <th><center>TIME/DAY</center></th>
+        <th><center>MONDAY</center></th>
+        <th><center>TUESDAY</center></th>
+        <th><center>WEDNESDAY</center></th>
+        <th><center>THURSDAY</center></th>
+        <th><center>FRIDAY</center></th>
+      </tr>
+    </thead>
+	
+    <tbody>
+      
+      <tr class="active">
+        <td>TIME</td>
+        <td>SUBJECT</td>
+		
+        <td>SUBJECT</td>
+        <td>SUBJECT</td>
+        <td>SUBJECT</td>
+        <td>SUBJECT</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<script>
+ $('#makeEditable').SetEditable({ $addButton: $('#but_add')});
+</script>
+
+<footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h5>TimeTable Mangement System© 2018</h5></div>
+                <div class="col-sm-6 social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+            </div>
+        </div>
+    </footer>
+
+</body>
